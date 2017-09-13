@@ -10,7 +10,7 @@ def hello():
 
     ret = "Hello World!<br>"
     ret += "<p>sys.path = " + str(sys.path) + "</p>\n"
-    ret += "<p>os.getcwd() = " + str(sys.path) + "</p>\n"
+    ret += "<p>os.getcwd() = " + str(os.getcwd()) + "</p>\n"
     ret += "<p>Environment:<br>"
 
     for name in os.environ:
